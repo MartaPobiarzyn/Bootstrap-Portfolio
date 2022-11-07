@@ -6,111 +6,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MP Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 
-
-
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <section id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About me
+                        <!--<span class="sr-only">(current)</span>-->
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mywork">My work</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a> -->
-              <!-- <div class="dropdown-menu">
+                <!-- <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact me</a>
+                </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
-      </nav>
+    </nav>
+</section>
+
     <!--End NavBar-->
 
     <!--Jumbotron-->
+    <section id="aboutme"></section>
     <div class="jumbotron">
         <h1 class="display-4">Marta Pobiarzyn</h1>
         <p class="lead">Front-end web development student</p>
-        <hr class="my-4">
-        <p>Hey, I'm Marta and I'm a front-end web development student based in Norwich, England. I'm building up my portfolio through this course in the hopes of jumpstarting a career change.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </div>
+    </div>
     <!--End Jumbotron-->
 
+
+
+    <!--About me-->
+    <div class="aboutmecard">
+        <div class="card mb-3 bg-transparent" style="max-width: 1400px; border: 0;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="images/1616111418578.jpeg" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+
+                        <p class="card-text">Hey, I'm Marta and I'm a front-end web development student based in
+                            Norwich,
+                            England. I'm building up my
+                            portfolio through this course in the hopes of jumpstarting a career change. Here are some of
+                            the skills I plan to develop:</p>
+                        <section id="aboutme"></section>
+                        <ul class="list-group bg-transparent">
+                            <li class="list-group-item bg-transparent">Robust HTML and CSS knowledge</li>
+                            <li class="list-group-item bg-transparent">Practical uses for web-development skills in
+                                marketing</li>
+                            <li class="list-group-item bg-transparent">A third item</li>
+                            <li class="list-group-item bg-transparent">A fourth item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
     <!--Work (cards)-->
+    <section id="mywork"></section>
+    <h2>Some of my work</h2>
     <div class="card-deck">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+            <img src="images/pexels-sebastian-pichard-6894425.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cars4U landing page</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
         </div>
         <div class="card">
-          <img src="images/avengers-infinity-war-2018.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+            <img src="images/mike-von-TPUGbQmyVwE-unsplash.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Casey's Closet newsletter</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
         </div>
         <div class="card">
-          <img src="images/luis-felipe-lins-J2-wAQDckus-unsplash.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+            <img src="images/luis-felipe-lins-J2-wAQDckus-unsplash_2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">welovemovies.com homepage</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
         </div>
-      </div>
+    </div>
     <!--End Work (cards)-->
 
-    <!--Skills list-->
-    <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
-    </ul>
-    <!--End Skills list-->
 
 
+    <!--contact-->
 
-    <!--About me/contact-->
+  <section id="contact">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Contact</h1>
+            <a href="https://www.linkedin.com/in/marta-pobiarzyn-37723a132/" class="text-reset" target="_blank">LinkedIn</a>
+            <a href="https://github.com/MartaPobiarzyn" class="text-reset" target="_blank">GitHub</a>
+            <a href="mailto:mpobi80@gmail.com" class="text-reset">Email</a>
+        </div>
+    </div>
+</section>
 
-
-
-    <!--End About me/contact-->
+    <!--End contact-->
 
 
 
@@ -118,9 +159,9 @@
 
 
     <!--Footer-->
-
-
-
+    <div class="footer">
+        <p>&copy Marta Pobiarzyn 2022 </p>
+    </div>
     <!--End Footer-->
 
 </body>

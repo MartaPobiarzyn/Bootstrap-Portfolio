@@ -1,18 +1,71 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background-color: rgb(125, 197, 168);
-}
- 
-.card {
-    display: grid;
+    background-color: #335C67;
 }
 
-#navBar {
+#nav {
+    color: white;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #E09F3E;
+    font-size: large;
+}
+
+
+.aboutmecard {
+    margin-left: 15px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    font-size: 25px;
+    border: 0;
+}
+
+.list-group-item {
+    color: white;
+}
+.card-deck {
     display: flex;
-    justify-content: flex-end;
-} 
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.list-group-item {
+    border: 0;
+    text-align: start;
+}
+
+.container {
+    color: black;
+    font-size: large;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.footer {
+    right: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
